@@ -2,8 +2,8 @@
 library(readxl)
 library(dplyr)
 
-pos_dir  <- "League Pos Raw"
-wage_dir <- "League Wages Raw"
+pos_dir  <- "data/league-position"
+wage_dir <- "data/wages"
 
 # Get season from filenames
 season_from <- function(f) sub("^(\\d{4}-\\d{4}).*", "\\1", basename(f))
