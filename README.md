@@ -12,7 +12,7 @@ Money buys success in football, but not all of it. This study measures how much 
 - The persistence coefficient is significantly above zero, so it is **not pure chance**; but well below one, so it is **not pure skill** either. A durable, non-wage component genuinely exists, but transient factors still dominate any individual season.
 - Over the period, **Brentford (+15.9 points/season), Manchester City (+13.7 points/season) and Liverpool (+13.5 points/season)** were the most wage-efficient clubs; **Southampton (−11.2 points/season), Manchester United (−8.8 points/season) and Everton (−8.2 points/season)** the least.
 
-
+improve to: ![Average wage efficiency by club](figures/your-filename.png)
 <img width="2842" height="1443" alt="Sheet 1-3" src="https://github.com/user-attachments/assets/2510ee94-06d7-46aa-8765-e627b806634f" />
 
 
@@ -61,9 +61,3 @@ R (`lm`, `sandwich`, `lmtest`, `ggplot2`, `plotly`), Tableau.
 ---
 
 Luca Nasillo: [https://www.linkedin.com/in/lucanasillo/]
-
-Two notes on using it:
-
-**Put the bar chart image directly in the README**, right under "Key findings" — it's your most immediately legible result and a README with a chart near the top gets read far more than a wall of text. Just `![Average wage efficiency by club](figures/your-filename.png)`.
-
-**Add your name and a line linking back to you** at the bottom — this is a portfolio piece, so make it easy for someone who likes it to find your LinkedIn.
