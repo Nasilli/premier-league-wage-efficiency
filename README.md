@@ -22,7 +22,7 @@ Money buys success in football, but not all of it. This study measures how much 
 Two stages:
 
 1. **Points–wage regression.** OLS of league points on log annual player wages with season fixed effects, cluster-robust standard errors clustered by club. The residual (actual minus wage-predicted points) is the club-season's *wage efficiency*.
-2. **Persistence test.** A pooled first-order autoregression of each residual on the same club's previous-season residual. Luck does not repeat; durable advantage does. The coefficient measures how much carries over, if persistence is significance, feel safe in the *wage efficiency* interpretation.
+2. **Persistence test.** A pooled first-order autoregression of each residual on the same club's previous-season residual. Luck does not repeat; durable advantage does. The coefficient measures how much carries over: significant persistence licenses the interpretation of the residual as *wage efficiency* rather than merely noise.
 
 Design choices are set out in full in the write-up: log transformation (diminishing returns, leverage, interpretability), season fixed effects (removing league-wide drift), and clustering rather than club fixed effects (preserving the between-club differences that are the object of study, and avoiding Nickell bias in a short panel with a lagged dependent variable).
 
