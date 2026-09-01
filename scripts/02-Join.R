@@ -6,7 +6,7 @@
 library(readxl)
 library(dplyr)
 
-pos_dir  <- "data/league-positions"
+pos_dir  <- "data/league-position"
 wage_dir <- "data/wages"
 
 # Season label is the leading YYYY-YYYY in each filename
