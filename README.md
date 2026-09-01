@@ -37,7 +37,7 @@ The window starts at 2019/20 because that is when Capology began applying its sa
 ```
 [/data]        Raw league position and wage data (FBref, Capology)
 [/scripts]     R script: cleaning, both regressions, diagnostics, charts
-[/figures]     Exported charts (PNG) and the interactive persistence plot (HTML)
+[/figures]     Exported charts (PNG)
 [write-up.pdf] Full formal write-up
 ```
 
