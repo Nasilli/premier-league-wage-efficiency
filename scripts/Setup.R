@@ -1,5 +1,10 @@
-library(dplyr)
-setwd("/Users/lucanasillo/Documents/WageProject")
-list.files()
+# Player-Wage Efficiency in the Premier League (2019/20–2025/26)
+# Requires: readxl, dplyr, sandwich, lmtest, ggplot2, plotly
+# Run from the repository root
 
-install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(sandwich)
+library(lmtest)
+library(ggplot2)
+library(plotly)
