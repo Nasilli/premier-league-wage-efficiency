@@ -29,7 +29,7 @@ glimpse(wages)
 
 
 
-# 1. Pull the GBP annual wage out of the text: drop everything from "(" on,
+# 1. Pull the GBP annual wage out of the text
 #    then strip all non-digits, leaving the pound figure as a number
 wages <- wages %>%
   mutate(wage_gbp_annual = as.numeric(gsub("[^0-9]", "", sub("\\(.*$", "", `Annual Wages`))))
