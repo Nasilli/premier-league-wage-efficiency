@@ -44,7 +44,7 @@ The window starts at 2019/20 because that is when Capology began applying its sa
 
 - **Points vs log wage bill** (interactive, Tableau Public) — [https://public.tableau.com/views/PremierLeagueWageEfficiency2019-2026/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
 - **Average wage efficiency by club** (interactive, Tableau Public) — [https://public.tableau.com/views/AverageWageEfficiencybyClubPremierLeague2019-2026/Sheet1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
-- **Season-to-season persistence** (interactive, plotly) — [link]
+- **Season-to-season persistence** (interactive, plotly) — [https://nasilli.github.io/premier-league-wage-efficiency/persistence_interactive.html]
 
 ## Limitations
 
