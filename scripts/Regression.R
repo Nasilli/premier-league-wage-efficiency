@@ -1,8 +1,7 @@
 # Regression Script: log wages & fit regression with fixed effects. Wage slope = money to points conversion rate. Residuals = wage efficiency (performance not explained by player wages)
-install.packages("sandwich")
-install.packages("lmtest")
 library(sandwich)
 library(lmtest)
+library(dplyr)
 
 model_df <- merged %>% mutate(ln_wage = log(wage_gbp_annual)) #adds log wage column
 
