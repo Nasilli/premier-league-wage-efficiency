@@ -27,7 +27,7 @@ wages <- bind_rows(lapply(wage_files, function(f) {
 glimpse(results)
 glimpse(wages)
 
-library(dplyr)
+
 
 # 1. Pull the GBP annual wage out of the text: drop everything from "(" on,
 #    then strip all non-digits, leaving the pound figure as a number
@@ -45,6 +45,6 @@ results_clean <- results %>%
 merged <- inner_join(results_clean, wages_clean, by = c("club", "season"))
 
 # 4. Verify nothing dropped
-nrow(merged)               # want 100
-count(merged, season)      # want 20 in each of the 5 seasons
+nrow(merged)               # expect 140
+count(merged, season)      # expect 20 in each of the 7 seasons
 anti_join(results_clean, wages_clean, by = c("club", "season"))  # want 0 rows
