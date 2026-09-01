@@ -1,0 +1,44 @@
+
+Call:
+lm(formula = points ~ ln_wage + factor(season), data = model_df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-31.556  -8.478  -0.672   7.765  35.330 
+
+Coefficients:
+                          Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             -340.90850   36.83821  -9.254 5.08e-16 ***
+ln_wage                   21.79924    2.03502  10.712  < 2e-16 ***
+factor(season)2020-2021   -0.03567    4.23236  -0.008   0.9933    
+factor(season)2021-2022   -0.23143    4.23231  -0.055   0.9565    
+factor(season)2022-2023   -2.76317    4.24146  -0.651   0.5159    
+factor(season)2023-2024   -3.15719    4.24173  -0.744   0.4580    
+factor(season)2024-2025   -4.46449    4.25214  -1.050   0.2957    
+factor(season)2025-2026   -7.87823    4.28631  -1.838   0.0683 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13.38 on 132 degrees of freedom
+Multiple R-squared:  0.4652,	Adjusted R-squared:  0.4368 
+F-statistic:  16.4 on 7 and 132 DF,  p-value: 2.013e-15
+
+
+Call:
+lm(formula = efficiency ~ efficiency_prev, data = persistence_df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-27.8672  -9.2725  -0.3705   7.8721  26.2535 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     -0.50474    1.12618  -0.448    0.655    
+efficiency_prev  0.38322    0.08797   4.356 2.98e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 11.87 on 110 degrees of freedom
+Multiple R-squared:  0.1471,	Adjusted R-squared:  0.1394 
+F-statistic: 18.98 on 1 and 110 DF,  p-value: 2.982e-05
+
