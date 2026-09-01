@@ -1,5 +1,4 @@
 # Persistence Visualisation
-install.packages("plotly") 
 library(ggplot2)
 library(plotly)
 
@@ -44,10 +43,9 @@ persistence_widget <- ggplotly(p, tooltip = "text") %>%
   ) %>%
   plotly::add_annotations(
     x = 0.98, y = -0.22, xref = "paper", yref = "paper",
-    text = "<i>Persistence coefficient = 0.38 (p < 0.001) | R² = 0.15 · n = 112</i>",
+    text = "<i>Persistence coefficient = 0.38 (p < 0.001) | R² = 0.15 | n = 112</i>",
     showarrow = FALSE, xanchor = "right",
     font = list(size = 12, color = "grey30", family = "Courier New"),
     opacity = 0.6)
 
-
-htmlwidgets::saveWidget(persistence_widget, "persistence_interactive.html")
+htmlwidgets::saveWidget(persistence_widget, "persistence_interactive.html", selfcontained = TRUE)
