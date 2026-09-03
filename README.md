@@ -8,7 +8,7 @@ Money buys success in football, but not all of it. This study measures how much 
 ## Key findings
 
 - Player wages explain **under half** (R² = 0.465) of the variation in a single season's points across 140 club-seasons. Doubling a wage bill is associated with roughly **15 extra points**.
-- The unexplained performance — "wage efficiency" — **persists**. An AR(1) model on 112 consecutive-season pairs gives a persistence coefficient of **0.383** (p < 0.001, cluster-robust): around 38% of a club's over- or under-performance carries into the following season.
+- The unexplained performance, "wage efficiency", **persists**. An AR(1) model on 112 consecutive-season pairs gives a persistence coefficient of **0.383** (p < 0.001, cluster-robust): around 38% of a club's over- or under-performance carries into the following season.
 - The persistence coefficient is significantly above zero, so it is **not pure chance**; but well below one, so it is **not pure skill** either. A durable, non-wage component genuinely exists, but transient factors still dominate any individual season.
 - Over the period, **Brentford (+15.9 points/season), Manchester City (+13.7 points/season) and Liverpool (+13.5 points/season)** were the most wage-efficient clubs; **Southampton (−11.2 points/season), Manchester United (−8.8 points/season) and Everton (−8.2 points/season)** the least.
 
